@@ -23,6 +23,14 @@ function showHitokoto() {
         });
 }
 
+// （1）hitokoto: 一言
+// （2）asteroids: 网页飞机小游戏
+// （3）express: 切换模型表情
+// （4）switch-model: 切换模型分组
+// （5）switch-texture: 切换分组下的模型
+// （6）photo: 截图
+// （7）info: 作者信息
+// （8）quit: 隐藏模型
 const tools = {
     "hitokoto": {
         icon: fa_comment,
@@ -58,7 +66,7 @@ const tools = {
     "info": {
         icon: fa_info_circle,
         callback: () => {
-            open("https://github.com/letere-gzj/live2d-widget-v3");
+            open("https://github.com/charles-7777/live2d-widget-v3");
         }
     },
     "photo": {
